@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		017FBF9620814CCA002F61E2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 017FBF9520814CCA002F61E2 /* main.cpp */; };
+		017FBF9E208151E4002F61E2 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 017FBF9D208151E4002F61E2 /* OpenGL.framework */; };
+		017FBFA02081524E002F61E2 /* libGLEW.2.1.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 017FBF9F2081524E002F61E2 /* libGLEW.2.1.0.dylib */; };
+		017FBFA220815286002F61E2 /* libglfw.3.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 017FBFA120815286002F61E2 /* libglfw.3.2.dylib */; };
+		017FBFA72081578F002F61E2 /* window.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 017FBFA52081578F002F61E2 /* window.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,11 @@
 /* Begin PBXFileReference section */
 		017FBF9220814CCA002F61E2 /* Sparky */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Sparky; sourceTree = BUILT_PRODUCTS_DIR; };
 		017FBF9520814CCA002F61E2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		017FBF9D208151E4002F61E2 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		017FBF9F2081524E002F61E2 /* libGLEW.2.1.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libGLEW.2.1.0.dylib; path = ../../../../usr/local/Cellar/glew/2.1.0/lib/libGLEW.2.1.0.dylib; sourceTree = "<group>"; };
+		017FBFA120815286002F61E2 /* libglfw.3.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw.3.2.dylib; path = ../../../../usr/local/Cellar/glfw/3.2.1/lib/libglfw.3.2.dylib; sourceTree = "<group>"; };
+		017FBFA52081578F002F61E2 /* window.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = window.cpp; sourceTree = "<group>"; };
+		017FBFA62081578F002F61E2 /* window.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = window.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +41,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				017FBFA220815286002F61E2 /* libglfw.3.2.dylib in Frameworks */,
+				017FBFA02081524E002F61E2 /* libGLEW.2.1.0.dylib in Frameworks */,
+				017FBF9E208151E4002F61E2 /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +55,7 @@
 			children = (
 				017FBF9420814CCA002F61E2 /* Sparky */,
 				017FBF9320814CCA002F61E2 /* Products */,
+				017FBF9C208151E4002F61E2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,9 +70,37 @@
 		017FBF9420814CCA002F61E2 /* Sparky */ = {
 			isa = PBXGroup;
 			children = (
+				017FBFA320815757002F61E2 /* src */,
 				017FBF9520814CCA002F61E2 /* main.cpp */,
 			);
 			path = Sparky;
+			sourceTree = "<group>";
+		};
+		017FBF9C208151E4002F61E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				017FBFA120815286002F61E2 /* libglfw.3.2.dylib */,
+				017FBF9F2081524E002F61E2 /* libGLEW.2.1.0.dylib */,
+				017FBF9D208151E4002F61E2 /* OpenGL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		017FBFA320815757002F61E2 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				017FBFA42081576D002F61E2 /* graphics */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		017FBFA42081576D002F61E2 /* graphics */ = {
+			isa = PBXGroup;
+			children = (
+				017FBFA52081578F002F61E2 /* window.cpp */,
+				017FBFA62081578F002F61E2 /* window.hpp */,
+			);
+			path = graphics;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				017FBF9620814CCA002F61E2 /* main.cpp in Sources */,
+				017FBFA72081578F002F61E2 /* window.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,6 +275,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/glew/2.1.0/lib,
+					/usr/local/Cellar/glfw/3.2.1/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -241,6 +289,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/glew/2.1.0/lib,
+					/usr/local/Cellar/glfw/3.2.1/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

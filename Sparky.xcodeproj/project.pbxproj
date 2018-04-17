@@ -89,6 +89,7 @@
 		017FBFA320815757002F61E2 /* src */ = {
 			isa = PBXGroup;
 			children = (
+				017FBFA920852787002F61E2 /* input */,
 				017FBFA42081576D002F61E2 /* graphics */,
 			);
 			path = src;
@@ -101,6 +102,13 @@
 				017FBFA62081578F002F61E2 /* window.hpp */,
 			);
 			path = graphics;
+			sourceTree = "<group>";
+		};
+		017FBFA920852787002F61E2 /* input */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = input;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,6 +283,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREPROCESSOR_DEFINITIONS = GLEW_STATIC;
 				HEADER_SEARCH_PATHS = /usr/local/include;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -289,6 +298,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREPROCESSOR_DEFINITIONS = GLEW_STATIC;
 				HEADER_SEARCH_PATHS = /usr/local/include;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",

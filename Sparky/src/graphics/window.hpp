@@ -1,11 +1,3 @@
-//
-//  window.hpp
-//  Sparky
-//
-//  Created by David Rodin on 4/13/18.
-//  Copyright © 2018 David Rodin. All rights reserved.
-//
-
 #ifndef window_hpp
 #define window_hpp
 

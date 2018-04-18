@@ -12,6 +12,10 @@
 		017FBFA02081524E002F61E2 /* libGLEW.2.1.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 017FBF9F2081524E002F61E2 /* libGLEW.2.1.0.dylib */; };
 		017FBFA220815286002F61E2 /* libglfw.3.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 017FBFA120815286002F61E2 /* libglfw.3.2.dylib */; };
 		017FBFA72081578F002F61E2 /* window.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 017FBFA52081578F002F61E2 /* window.cpp */; };
+		017FBFAE208671D6002F61E2 /* Vec2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 017FBFAC208671D6002F61E2 /* Vec2.cpp */; };
+		017FBFB120869FC4002F61E2 /* Vec.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 017FBFAF20869FC4002F61E2 /* Vec.cpp */; };
+		017FBFB620879B41002F61E2 /* Vec4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 017FBFB320879B40002F61E2 /* Vec4.cpp */; };
+		017FBFB720879B41002F61E2 /* Vec3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 017FBFB420879B40002F61E2 /* Vec3.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +38,15 @@
 		017FBFA120815286002F61E2 /* libglfw.3.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw.3.2.dylib; path = ../../../../usr/local/Cellar/glfw/3.2.1/lib/libglfw.3.2.dylib; sourceTree = "<group>"; };
 		017FBFA52081578F002F61E2 /* window.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = window.cpp; sourceTree = "<group>"; };
 		017FBFA62081578F002F61E2 /* window.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = window.hpp; sourceTree = "<group>"; };
+		017FBFAA20867057002F61E2 /* Vec2.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Vec2.hpp; sourceTree = "<group>"; };
+		017FBFAC208671D6002F61E2 /* Vec2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Vec2.cpp; sourceTree = "<group>"; };
+		017FBFAF20869FC4002F61E2 /* Vec.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Vec.cpp; sourceTree = "<group>"; };
+		017FBFB020869FC4002F61E2 /* Vec.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Vec.hpp; sourceTree = "<group>"; };
+		017FBFB220879B40002F61E2 /* Vec3.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Vec3.hpp; sourceTree = "<group>"; };
+		017FBFB320879B40002F61E2 /* Vec4.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Vec4.cpp; sourceTree = "<group>"; };
+		017FBFB420879B40002F61E2 /* Vec3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Vec3.cpp; sourceTree = "<group>"; };
+		017FBFB520879B40002F61E2 /* Vec4.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Vec4.hpp; sourceTree = "<group>"; };
+		017FBFB820879C94002F61E2 /* math.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = math.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +102,7 @@
 		017FBFA320815757002F61E2 /* src */ = {
 			isa = PBXGroup;
 			children = (
+				017FBFAB2086707E002F61E2 /* math */,
 				017FBFA920852787002F61E2 /* input */,
 				017FBFA42081576D002F61E2 /* graphics */,
 			);
@@ -109,6 +123,22 @@
 			children = (
 			);
 			path = input;
+			sourceTree = "<group>";
+		};
+		017FBFAB2086707E002F61E2 /* math */ = {
+			isa = PBXGroup;
+			children = (
+				017FBFB420879B40002F61E2 /* Vec3.cpp */,
+				017FBFB220879B40002F61E2 /* Vec3.hpp */,
+				017FBFB320879B40002F61E2 /* Vec4.cpp */,
+				017FBFB520879B40002F61E2 /* Vec4.hpp */,
+				017FBFAA20867057002F61E2 /* Vec2.hpp */,
+				017FBFAC208671D6002F61E2 /* Vec2.cpp */,
+				017FBFAF20869FC4002F61E2 /* Vec.cpp */,
+				017FBFB020869FC4002F61E2 /* Vec.hpp */,
+				017FBFB820879C94002F61E2 /* math.hpp */,
+			);
+			path = math;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,8 +198,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				017FBFB720879B41002F61E2 /* Vec3.cpp in Sources */,
+				017FBFAE208671D6002F61E2 /* Vec2.cpp in Sources */,
 				017FBF9620814CCA002F61E2 /* main.cpp in Sources */,
 				017FBFA72081578F002F61E2 /* window.cpp in Sources */,
+				017FBFB120869FC4002F61E2 /* Vec.cpp in Sources */,
+				017FBFB620879B41002F61E2 /* Vec4.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

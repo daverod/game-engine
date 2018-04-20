@@ -23,7 +23,7 @@ int main(int argc, const char * argv[]) {
     
     using namespace sparky;
     using namespace graphics;
-    using namespace math
+    using namespace math;
     
 //    Window window("Sparky!", 800, 600);
 //    glClearColor(0.2f, 0.3f, 0.3f, 1.0f);

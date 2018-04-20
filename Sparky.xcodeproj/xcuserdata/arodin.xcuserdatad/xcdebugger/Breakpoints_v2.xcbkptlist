@@ -9,14 +9,126 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Sparky/main.cpp"
-            timestampString = "545758659.962657"
+            filePath = "Sparky/src/math/rayTracer.cpp"
+            timestampString = "545956963.211436"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "7"
-            endingLineNumber = "7"
-            landmarkName = "main(int argc, const char * argv[])"
-            landmarkType = "9">
+            startingLineNumber = "9"
+            endingLineNumber = "9"
+            landmarkName = "RayTracer::trace(const Vec3&amp; rayOrig, const Vec3&amp; rayDir, const std::vector&lt;Sphere&gt; &amp;spheres, const int &amp;depth)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sparky/src/math/rayTracer.cpp"
+            timestampString = "545956963.21167"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
+            landmarkName = "RayTracer::trace(const Vec3&amp; rayOrig, const Vec3&amp; rayDir, const std::vector&lt;Sphere&gt; &amp;spheres, const int &amp;depth)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sparky/src/math/rayTracer.cpp"
+            timestampString = "545956963.211913"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "82"
+            endingLineNumber = "82"
+            landmarkName = "RayTracer::trace(const Vec3&amp; rayOrig, const Vec3&amp; rayDir, const std::vector&lt;Sphere&gt; &amp;spheres, const int &amp;depth)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sparky/src/math/rayTracer.cpp"
+            timestampString = "545956963.212201"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "RayTracer::trace(const Vec3&amp; rayOrig, const Vec3&amp; rayDir, const std::vector&lt;Sphere&gt; &amp;spheres, const int &amp;depth)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sparky/src/math/rayTracer.cpp"
+            timestampString = "545956963.212436"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "RayTracer::trace(const Vec3&amp; rayOrig, const Vec3&amp; rayDir, const std::vector&lt;Sphere&gt; &amp;spheres, const int &amp;depth)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sparky/src/math/rayTracer.cpp"
+            timestampString = "545956963.212656"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "RayTracer::trace(const Vec3&amp; rayOrig, const Vec3&amp; rayDir, const std::vector&lt;Sphere&gt; &amp;spheres, const int &amp;depth)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sparky/src/math/rayTracer.cpp"
+            timestampString = "545956963.212852"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "RayTracer::trace(const Vec3&amp; rayOrig, const Vec3&amp; rayDir, const std::vector&lt;Sphere&gt; &amp;spheres, const int &amp;depth)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sparky/src/math/rayTracer.cpp"
+            timestampString = "545956963.213124"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
+            landmarkName = "RayTracer::trace(const Vec3&amp; rayOrig, const Vec3&amp; rayDir, const std::vector&lt;Sphere&gt; &amp;spheres, const int &amp;depth)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -25,14 +137,14 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Sparky/main.cpp"
-            timestampString = "545758659.962837"
+            filePath = "Sparky/src/math/rayTracer.cpp"
+            timestampString = "545956963.21329"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "32"
-            endingLineNumber = "32"
-            landmarkName = "main(int argc, const char * argv[])"
-            landmarkType = "9">
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "RayTracer::trace(const Vec3&amp; rayOrig, const Vec3&amp; rayDir, const std::vector&lt;Sphere&gt; &amp;spheres, const int &amp;depth)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -41,14 +153,14 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Sparky/main.cpp"
-            timestampString = "545758659.962994"
+            filePath = "Sparky/src/math/rayTracer.cpp"
+            timestampString = "545956963.213393"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "28"
-            endingLineNumber = "28"
-            landmarkName = "main(int argc, const char * argv[])"
-            landmarkType = "9">
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "RayTracer::trace(const Vec3&amp; rayOrig, const Vec3&amp; rayDir, const std::vector&lt;Sphere&gt; &amp;spheres, const int &amp;depth)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -57,14 +169,30 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Sparky/main.cpp"
-            timestampString = "545758659.963117"
+            filePath = "Sparky/src/math/rayTracer.cpp"
+            timestampString = "545956963.213555"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "29"
             endingLineNumber = "29"
-            landmarkName = "main(int argc, const char * argv[])"
-            landmarkType = "9">
+            landmarkName = "RayTracer::trace(const Vec3&amp; rayOrig, const Vec3&amp; rayDir, const std::vector&lt;Sphere&gt; &amp;spheres, const int &amp;depth)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Sparky/src/math/rayTracer.cpp"
+            timestampString = "545956963.2136739"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "RayTracer::trace(const Vec3&amp; rayOrig, const Vec3&amp; rayDir, const std::vector&lt;Sphere&gt; &amp;spheres, const int &amp;depth)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

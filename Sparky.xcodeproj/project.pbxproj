@@ -16,6 +16,9 @@
 		017FBFB120869FC4002F61E2 /* Vec.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 017FBFAF20869FC4002F61E2 /* Vec.cpp */; };
 		017FBFB620879B41002F61E2 /* Vec4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 017FBFB320879B40002F61E2 /* Vec4.cpp */; };
 		017FBFB720879B41002F61E2 /* Vec3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 017FBFB420879B40002F61E2 /* Vec3.cpp */; };
+		017FBFBB2087A0FD002F61E2 /* Mat4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 017FBFB92087A0FD002F61E2 /* Mat4.cpp */; };
+		017FBFBF208A3FD5002F61E2 /* Sphere.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 017FBFBD208A3FD4002F61E2 /* Sphere.cpp */; };
+		017FBFC7208A55B7002F61E2 /* rayTracer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 017FBFC5208A55B7002F61E2 /* rayTracer.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -47,6 +50,13 @@
 		017FBFB420879B40002F61E2 /* Vec3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Vec3.cpp; sourceTree = "<group>"; };
 		017FBFB520879B40002F61E2 /* Vec4.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Vec4.hpp; sourceTree = "<group>"; };
 		017FBFB820879C94002F61E2 /* math.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = math.hpp; sourceTree = "<group>"; };
+		017FBFB92087A0FD002F61E2 /* Mat4.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Mat4.cpp; sourceTree = "<group>"; };
+		017FBFBA2087A0FD002F61E2 /* Mat4.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Mat4.hpp; sourceTree = "<group>"; };
+		017FBFBC2087E2D5002F61E2 /* maths_func.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = maths_func.hpp; sourceTree = "<group>"; };
+		017FBFBD208A3FD4002F61E2 /* Sphere.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Sphere.cpp; sourceTree = "<group>"; };
+		017FBFBE208A3FD4002F61E2 /* Sphere.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Sphere.hpp; sourceTree = "<group>"; };
+		017FBFC5208A55B7002F61E2 /* rayTracer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = rayTracer.cpp; sourceTree = "<group>"; };
+		017FBFC6208A55B7002F61E2 /* rayTracer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = rayTracer.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +147,13 @@
 				017FBFAF20869FC4002F61E2 /* Vec.cpp */,
 				017FBFB020869FC4002F61E2 /* Vec.hpp */,
 				017FBFB820879C94002F61E2 /* math.hpp */,
+				017FBFB92087A0FD002F61E2 /* Mat4.cpp */,
+				017FBFBA2087A0FD002F61E2 /* Mat4.hpp */,
+				017FBFBC2087E2D5002F61E2 /* maths_func.hpp */,
+				017FBFBD208A3FD4002F61E2 /* Sphere.cpp */,
+				017FBFBE208A3FD4002F61E2 /* Sphere.hpp */,
+				017FBFC5208A55B7002F61E2 /* rayTracer.cpp */,
+				017FBFC6208A55B7002F61E2 /* rayTracer.hpp */,
 			);
 			path = math;
 			sourceTree = "<group>";
@@ -200,7 +217,10 @@
 			files = (
 				017FBFB720879B41002F61E2 /* Vec3.cpp in Sources */,
 				017FBFAE208671D6002F61E2 /* Vec2.cpp in Sources */,
+				017FBFC7208A55B7002F61E2 /* rayTracer.cpp in Sources */,
+				017FBFBF208A3FD5002F61E2 /* Sphere.cpp in Sources */,
 				017FBF9620814CCA002F61E2 /* main.cpp in Sources */,
+				017FBFBB2087A0FD002F61E2 /* Mat4.cpp in Sources */,
 				017FBFA72081578F002F61E2 /* window.cpp in Sources */,
 				017FBFB120869FC4002F61E2 /* Vec.cpp in Sources */,
 				017FBFB620879B41002F61E2 /* Vec4.cpp in Sources */,
